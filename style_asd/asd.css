@@ -1,0 +1,76 @@
+body{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	background: #ababab;
+	margin: 0px;
+}
+.block{
+	display: block;
+	width: 300px;
+	height: 1500px;
+	background: url(dad.png);
+
+}
+.blockghost{
+	width: 300px;
+	height: 700px;
+	display: block;
+ padding-top: 150px;
+}
+.line{
+	display: block;
+	width: 300px;
+	height: 50px;
+	background: #6d1212;
+	list-style: none;
+	text-indent: 150px;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	transition-property: all;
+	border-radius: 10px;
+
+}
+.line:hover{
+	background: #CD0037;
+	margin-left: 20px;
+	box-shadow: 0 0px 20px #fff, 
+	inset 0 2px 0 rgba(255,255,255,.6), 0 2px 0 rgba(0,0,0,.1), inset 0 0 20px rgba(0,0,0,.1);
+
+}
+#but{
+	padding-top: 13px;
+}
+.dsa{
+
+}
+.asd{
+	display: block;
+	width: 250px;
+	height: 40px;
+	list-style: none;
+	color: #fff;
+	text-indent: 40px;
+	background: #6d1212;
+	margin-top: 10px;
+    
+}
+.asda{
+	color: #fff;
+	display: block;
+	width: 300px;
+	height: 60px;
+	background: #6d1212;
+	margin-right: 20px;
+	
+}
+.dvizh{
+	float: right;
+	margin-right: 200px;
+}
+#but2{
+	padding-top: 13px;
+}
